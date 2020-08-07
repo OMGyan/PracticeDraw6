@@ -2,13 +2,15 @@ package com.hencoder.hencoderpracticedraw6.sample.sample08;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
+
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.hencoder.hencoderpracticedraw6.R;
+
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
 public class Sample08ObjectAnimatorLayout extends RelativeLayout {
     Sample08ObjectAnimatorView view;

@@ -1,7 +1,7 @@
 package com.hencoder.hencoderpracticedraw6.practice;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +11,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.hencoder.hencoderpracticedraw6.R;
+
+import androidx.annotation.Nullable;
 
 public class Practice06Duration extends LinearLayout {
     SeekBar durationSb;

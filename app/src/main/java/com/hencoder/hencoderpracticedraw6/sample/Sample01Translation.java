@@ -4,8 +4,7 @@ import android.content.Context;
 import android.graphics.Outline;
 import android.graphics.Path;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
+
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewOutlineProvider;
@@ -15,6 +14,9 @@ import android.widget.RelativeLayout;
 
 import com.hencoder.hencoderpracticedraw6.R;
 import com.hencoder.hencoderpracticedraw6.Utils;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static com.hencoder.hencoderpracticedraw6.Utils.dpToPixel;
